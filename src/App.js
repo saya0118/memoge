@@ -48,6 +48,7 @@ function App() {
 
         resetTurn()
       }else{
+        console.log('doesnt match');
         setTimeout(() => resetTurn(), 1000)
       }
     }
